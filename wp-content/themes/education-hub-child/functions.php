@@ -101,6 +101,69 @@ function my_acf_blocks_init()
             'category' => 'common',
             'mode' => 'edit'
         ));
+
+        acf_register_block_type(array(
+            'name' => 'doitac',
+            'title' => __('Đối Tác'),
+            'description' => __('Đối Tác block.'),
+            'render_template' => 'template/blocks/doitac.php',
+            'category' => 'common',
+            'mode' => 'edit'
+        ));
+
+        acf_register_block_type(array(
+            'name' => 'quytrinh',
+            'title' => __('Quy Trình'),
+            'description' => __('Quy Trình block.'),
+            'render_template' => 'template/blocks/quytrinh.php',
+            'category' => 'common',
+            'mode' => 'edit'
+        ));
+
+        acf_register_block_type(array(
+            'name' => 'products',
+            'title' => __('Sản Phẩm'),
+            'description' => __('Sản Phẩm block.'),
+            'render_template' => 'template/blocks/products.php',
+            'category' => 'common',
+            'mode' => 'edit'
+        ));
+
+        acf_register_block_type(array(
+            'name' => 'featured_products',
+            'title' => __('Sản Phẩm Tiêu Biểu'),
+            'description' => __('Sản Phẩm Tiêu Biểu block.'),
+            'render_template' => 'template/blocks/featured_products.php',
+            'category' => 'common',
+            'mode' => 'edit'
+        ));
+
+        acf_register_block_type(array(
+            'name' => 'dathang',
+            'title' => __('Đặt Hàng'),
+            'description' => __('Đặt Hàng block.'),
+            'render_template' => 'template/blocks/dathang.php',
+            'category' => 'common',
+            'mode' => 'edit'
+        ));
+
+        acf_register_block_type(array(
+            'name' => 'camket',
+            'title' => __('Cam Kết'),
+            'description' => __('Cam Kết block.'),
+            'render_template' => 'template/blocks/camket.php',
+            'category' => 'common',
+            'mode' => 'edit'
+        ));
+
+        acf_register_block_type(array(
+            'name' => 'testimonials',
+            'title' => __('Testimonials'),
+            'description' => __('Testimonials block.'),
+            'render_template' => 'template/blocks/testimonials.php',
+            'category' => 'common',
+            'mode' => 'edit'
+        ));
     }
 }
 				
