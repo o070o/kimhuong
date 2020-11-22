@@ -538,7 +538,7 @@ textarea {
 
 a,
 a:visited {
-    color:#7B9E87;
+    color:#FF6655;
     text-decoration: inherit;
 }
 
@@ -563,8 +563,8 @@ a:active {
 --------------------------------------------------------------*/
 
 #main-nav {
-    background-color: #7B9E87;
-    border-bottom: 5px solid #5da55e;
+    background-color: #FF6655;
+    border-bottom: 5px solid #ff9446;
     display: block;
     float: left;
     width: 100%;
@@ -669,7 +669,7 @@ a:active {
 .main-navigation li.current-menu-item > a,
 .main-navigation li.current_page_item > a ,
 .main-navigation li:hover > a{
-    background:#5ea55e;
+    background:#ff9446;
     color: #fff;
 }
 
@@ -1433,7 +1433,7 @@ object {
   padding: 0;
 }
 #tophead {
-    background-color: #7B9E87;
+    background-color: #FF6655;
     clear: both;
     font-family: "Merriweather Sans",sans-serif;
     min-height: 35px;
@@ -2224,7 +2224,7 @@ object {
 
 .search-form .search-submit,
 .woocommerce-product-search button {
-    background-color: #7B9E87;
+    background-color: #FF6655;
     border-radius: 0 20px 20px 0;
     float: right;
     padding: 10px 15px;
@@ -2262,7 +2262,7 @@ object {
 #sidebar-secondary .widget-title::after{
     border-left: 9px solid rgba(0, 0, 0, 0);
     border-right: 9px solid rgba(0, 0, 0, 0);
-    border-top: 9px solid #146b14;
+    border-top: 9px solid #ff6655;
     bottom: -20px;
     content: "";
     display: block;
@@ -2276,9 +2276,9 @@ object {
 
 #sidebar-primary .widget-title,
  #sidebar-secondary .widget-title {
-    background: #146b14 none repeat scroll 0 0;
-    border-bottom: 0 solid #5ea55e;
-    border-left: 5px solid #5ea55e;
+    background: #ff6655 none repeat scroll 0 0;
+    border-bottom: 0 solid #ff9446;
+    border-left: 5px solid #ff9446;
     color: #ffffff;
     font-size: 16px;
     font-weight: normal;
@@ -2615,7 +2615,7 @@ a.button::after {
 }
 
 .site-footer {
-    background-color: #7B9E87;
+    background-color: #FF6655;
     clear: both;
     color: #ffffff;
     padding: 15px 0;
@@ -2762,7 +2762,7 @@ body.site-layout-boxed{
 --------------------------------------------------------------*/
 
 .scrollup {
-    background: #7B9E87 none repeat scroll 0 0;
+    background: #FF6655 none repeat scroll 0 0;
     bottom: 50px;
     color: #ffffff;
     display: none;
@@ -3692,7 +3692,7 @@ input[type="number"] {
     letter-spacing: 1px;
     border-radius: 6px;
     box-shadow: 2px 8px 7px -3px rgba(5, 5, 5, 0.20);
-    background: linear-gradient(to bottom,#4ab849,#7B9E87);
+    background: linear-gradient(to bottom,#4ab849,#FF6655);
     padding: 12px 30px;
 }
 

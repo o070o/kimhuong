@@ -2127,7 +2127,7 @@ body #callnowbutton img {
 }
 .panel .panel-body .wp-link-shortcode a.btn.linksupport {
     color: #fff;
-    background-image: linear-gradient(to bottom, #47b546, #2a9a2a);
+    background-image: linear-gradient(to bottom, #FF6655, #FF6655);
     animation: numbers3 3s infinite;
 }
 @keyframes numbers2 {
@@ -2237,7 +2237,7 @@ body #callnowbutton img {
     border-bottom-right-radius: 5px;
     opacity: 0;
     transition: all 0.3s;
-    background-image: linear-gradient(to top, #47b546, #2a9a2a);
+    background-image: linear-gradient(to top, #FF6655, #FF6655);
     color: #ffffff;
     text-align: center;
     font-weight: 600;
@@ -2248,7 +2248,7 @@ body #callnowbutton img {
     border-radius: 6px !important;
     box-shadow: 2px 8px 7px -3px rgba(5, 5, 5, 0.2) !important;
     margin-top: 10px;
-    background-image: linear-gradient(to bottom, #47b546, #2a9a2a);
+    background-image: linear-gradient(to bottom, #FF6655, #FF6655);
     padding: 10px 20px;
     position: relative;
     z-index: 1;
@@ -2954,14 +2954,14 @@ img.card-products-ads-item-block-img {
 .vb_header_title {
     text-align: left;
     letter-spacing: 1.58px;
-    color: #7B9E87;
+    color: #FF6655;
     text-transform: uppercase;
     font-size: 28px;
     font-weight: 900;
     display: block;
     position: relative;
     margin-bottom: 46px;
-    text-shadow: 1px 0px 0px #7B9E87;
+    text-shadow: 1px 0px 0px #FF6655;
     z-index: 3;
     top: 10px;
 }
@@ -3022,7 +3022,7 @@ img.card-products-ads-item-block-img {
     border-top: 5px solid #fff;
     border-bottom: 5px solid #fff;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
-    background: transparent linear-gradient(98deg, #7B9E87 0%, #0a3f0a 225%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(98deg, #FF6655 0%, #0a3f0a 225%) 0% 0% no-repeat padding-box;
 }
 .vb_header_absolute .vb_header_absolute_grey {
     height: 230px;
@@ -3124,12 +3124,12 @@ img.card-products-ads-item-block-img {
     text-align: center;
     vertical-align: middle;
     padding: 3px;
-    box-shadow: 0px 0px 0px #2a9a2a;
+    box-shadow: 0px 0px 0px #FF6655;
     transition: all 0.3s;
     cursor: pointer;
 }
 .vb_products .vb_tab .vb_tablinks.active {
-    box-shadow: 0px 0px 0px 2px #2a9a2a;
+    box-shadow: 0px 0px 0px 2px #FF6655;
     border-color: #fff;
 }
 .vb_tabcontent {
@@ -3161,6 +3161,7 @@ img.card-products-ads-item-block-img {
 .vb_tabcontent .tabcontent .vb_tab_content .vb_star {
     margin-bottom: 5px;
     margin-top: 5px;
+    max-width: 92px;
 }
 .vb_tabcontent .tabcontent .vb_tab_content .vb_tab_text {
     color: #778385;
@@ -3235,7 +3236,7 @@ img.card-products-ads-item-block-img {
     border-top: 1px solid #dfe8e5;
     border-right: 1px solid #dfe8e5;
     border-bottom: 1px solid #dfe8e5;
-    background: url(https://vietbox.vn/wp-content/uploads/2019/12/sanphamchinh.png) 0% 0% repeat;
+    background: url(http://baobikimxuong.com/wp-content/uploads/2020/11/sanphamchinh-1.png) 0% 0% repeat;
     animation-delay: 0.2s;
     animation-name: MOVE-BG;
     animation-duration: 15s;
@@ -3244,12 +3245,12 @@ img.card-products-ads-item-block-img {
 }
 @keyframes MOVE-BG {
     from {
-        background: url(https://vietbox.vn/wp-content/uploads/2019/12/sanphamchinh.png);
+        background: url(http://baobikimxuong.com/wp-content/uploads/2020/11/sanphamchinh-1.png);
         background-position: 0% 0%;
     }
 
     to {
-        background: url(https://vietbox.vn/wp-content/uploads/2019/12/sanphamchinh.png);
+        background: url(http://baobikimxuong.com/wp-content/uploads/2020/11/sanphamchinh-1.png);
         background-position: 187% 52%;
     }
 }
@@ -3335,7 +3336,7 @@ img.card-products-ads-item-block-img {
     left: 0px;
 }
 #vb_ship .vb_absolute_green {
-    background: transparent linear-gradient(98deg, #7B9E87 0%, #0a3f0a 225%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(98deg, #FF6655 0%, #0a3f0a 225%) 0% 0% no-repeat padding-box;
     position: absolute;
     width: 100%;
     display: block;
@@ -3381,7 +3382,7 @@ img.card-products-ads-item-block-img {
 #vb_whychooseus .vb_head_title {
     text-transform: uppercase;
     font-weight: 500;
-    color: #47b546;
+    color: #FF6655;
     letter-spacing: 5px;
     margin-bottom: 6px;
 }
@@ -3421,7 +3422,7 @@ img.card-products-ads-item-block-img {
 .vb_flex_whychooseus .vb_whychooseus_block .vb_whychooseus_block_title {
     font-size: 21px;
     font-weight: bold;
-    color: #2a9a2a;
+    color: #FF6655;
     margin-bottom: 13px;
 }
 .vb_flex_whychooseus .vb_whychooseus_block .vb_whychooseus_block_content {
@@ -3597,11 +3598,11 @@ img.card-products-ads-item-block-img {
     padding: 12px 60px;
     margin-top: 22px;
     border-radius: 50px;
-    background: linear-gradient(to top, #2a9a2a, #47b546);
+    background: linear-gradient(to top, #FF6655, #FF6655);
     color: #fff;
     font-weight: 500;
     font-size: 17px;
-    box-shadow: 0px 8px 10px -2px rgba(3, 170, 0, 0.32);
+    box-shadow: 0px 8px 10px -2px rgba(255, 102, 85, 0.32);
     transition: all 0.3s;
     cursor: pointer;
     display: block;
@@ -3630,7 +3631,7 @@ img.card-products-ads-item-block-img {
     opacity: 1;
 }
 #vb_contactform .vb_contacform_flex_left form .vb_btn_sending:hover {
-    box-shadow: 0px 0px 0px 7px rgba(68, 178, 67, 0.2);
+    box-shadow: 0px 0px 0px 7px rgba(255, 102, 85, 0.2);
 }
 .vb_contacform_flex .vb_contacform_flex_right {
     width: calc(100% - 488px);
@@ -3660,7 +3661,7 @@ img.card-products-ads-item-block-img {
     width: 100%;
     height: 100%;
     display: block;
-    background: transparent linear-gradient(303deg, #7b9e8766 0%, rgb(41 150 41) 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(303deg, #7b9e8766 0%, rgb(255 102 85) 100%) 0% 0% no-repeat padding-box;
     opacity: 0.95;
 }
 .vb_contacform_flex .vb_contacform_flex_right .vb_contacform_flex_right_absolute:after {
@@ -3671,9 +3672,8 @@ img.card-products-ads-item-block-img {
     width: 70px;
     height: 100%;
     display: block;
-    background: rgba(123, 158 ,135, 0.7);
+    background: rgba(255, 102, 85, 0.7);
     opacity: 0.85;
-    border-right: 1px solid #4d9f44;
 }
 .vb_info_company {
     display: flex;
@@ -3689,14 +3689,19 @@ img.card-products-ads-item-block-img {
     width: 100%;
     margin-bottom: 20px;
 }
-.vb_info_company .vb_info_company_row .vb_info_company_row_social {
+.vb_info_company .vb_info_company_row .vb_info_company_row_social,
+.vb_info_company .vb_info_company_row i {
     width: 40px;
     height: 40px;
     max-width: 40px;
     box-shadow: 0px 5px 13px rgba(0, 42, 0, 0.4);
-    border-radius: 100px;
+    border-radius: 50%;
     margin-top: 9px;
     margin-right: 20px;
+    line-height: 40px;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
 }
 .vb_info_company .vb_info_company_row .vb_info_company_row_social_input {
     display: block;
@@ -3722,13 +3727,13 @@ img.card-products-ads-item-block-img {
     transition: all 0.3s;
 }
 .vb_info_company .vb_info_company_row .vb_info_company_row_social_input a:hover {
-    color: #beff75;
+    color: #ffffff;
 }
 .vb_info_company .vb_info_company_row .vb_info_company_row_social_input p.active {
-    color: #beff75;
+    color: #ffffff;
 }
 .vb_info_company .vb_info_company_row .vb_info_company_row_social_input a.active {
-    color: #beff75;
+    color: #ffffff;
     font-weight: bold;
     font-size: 20px;
 }
@@ -3766,7 +3771,7 @@ img.card-products-ads-item-block-img {
     height: 3px;
     width: 70px;
     position: absolute;
-    background: #2a9a2a;
+    background: #FF6655;
     bottom: 0px;
     left: 0px;
 }
@@ -4004,7 +4009,7 @@ img.card-products-ads-item-block-img {
 #vb_partner .vb_head_title {
     text-transform: uppercase;
     font-weight: 500;
-    color: #47b546;
+    color: #FF6655;
     letter-spacing: 5px;
     margin-bottom: 6px;
 }
@@ -4097,7 +4102,7 @@ img.card-products-ads-item-block-img {
     display: block;
 }
 #vb_tagproducts .vb_foot_title {
-    color: #b7b7b7;
+    color: #fe9346;
     font-size: 17px;
     margin-top: 5px;
     width: 100%;
@@ -4141,7 +4146,7 @@ img.card-products-ads-item-block-img {
     animation-timing-function: linear;
 }
 #vb_tagproducts .vb_tagproducts_flex_header .vb_tagproducts_flex_header_right .vb_tagproducts_hotline .vb_tagproducts_hotline_title {
-    color: #3f7c44;
+    color: #FF6655;
     font-weight: 500;
     width: 100%;
     margin-bottom: 10px;
@@ -4151,7 +4156,7 @@ img.card-products-ads-item-block-img {
 #vb_tagproducts .vb_tagproducts_flex_header .vb_tagproducts_flex_header_right .vb_tagproducts_hotline .vb_tagproducts_hotline_callnow {
     font-size: 28px;
     font-weight: bold;
-    color: #a2f34b;
+    color: #ffffff;
     position: relative;
     display: block;
     width: 100%;
@@ -4224,7 +4229,7 @@ img.card-products-ads-item-block-img {
     white-space: nowrap;
     margin-bottom: 0px;
     text-transform: uppercase;
-    color: #1a5b1f;
+    color: #fe9346;
     font-size: 20px;
     letter-spacing: 0.5px;
     font-weight: 500;
@@ -4265,9 +4270,9 @@ img.card-products-ads-item-block-img {
     transition-timing-function: cubic-bezier(0.39, 0.58, 0.57, 1);
 }
 .vb_tagproducts_flex_content .vb_tagproducts_flex_content_col .vb_tagproducts_col_content .vb_tagproducts_col_list li a:hover {
-    box-shadow: 0 0 0 1px rgb(162, 243, 75);
+    box-shadow: 0 0 0 1px rgb(255 102 85);
     background: rgba(0, 0, 0, 0.2);
-    color: #9eed49;
+    color: #ff6655;
     padding-left: 15px;
     padding-right: 0px;
 }
@@ -4291,17 +4296,17 @@ img.card-products-ads-item-block-img {
     background: #ff7d33;
 }
 .vb_tagproducts_flex_content .vb_tagproducts_flex_content_col .vb_tagproducts_col_content .vb_tagproducts_col_listall:hover {
-    color: #a2f34b;
+    color: #ffffff;
 }
 .vb_tagproducts_flex_content .vb_tagproducts_flex_content_col .vb_tagproducts_col_content .vb_tagproducts_col_listall:hover:before {
-    background: #a2f34b;
+    background: #ffffff;
 }
 .vb_tagproducts_flex_content .vb_tagproducts_flex_content_col .vb_tagproducts_col_title .vb_tagproducts_col_title_1:before {
     content: "";
     position: absolute;
     height: 1px;
     width: 395px;
-    background: #1a5b1f;
+    background: #fe9346;
     display: block;
     top: 13px;
     left: 170px;
@@ -4311,7 +4316,7 @@ img.card-products-ads-item-block-img {
     position: absolute;
     height: 1px;
     width: 395px;
-    background: #1a5b1f;
+    background: #fe9346;
     display: block;
     top: 13px;
     left: 207px;
@@ -4321,7 +4326,7 @@ img.card-products-ads-item-block-img {
     position: absolute;
     height: 1px;
     width: 395px;
-    background: #1a5b1f;
+    background: #fe9346;
     display: block;
     top: 13px;
     left: 133px;
@@ -4331,7 +4336,7 @@ img.card-products-ads-item-block-img {
     position: absolute;
     height: 1px;
     width: 395px;
-    background: #1a5b1f;
+    background: #fe9346;
     display: block;
     top: 13px;
     left: 180px;
@@ -4343,7 +4348,7 @@ img.card-products-ads-item-block-img {
     height: 100%;
     top: 0px;
     left: 0px;
-    background: rgba(7, 66, 7, 0.85);
+    background: rgba(255 ,102 ,85, 0.75);
 }
 
 .vb_footer_new {
@@ -4390,13 +4395,16 @@ img.card-products-ads-item-block-img {
     position: relative;
     transition: all 0.2s;
 }
-.vb_footer_new .container .vb_footer_block_1 .vb_footer_row_info img {
+.vb_footer_new .container .vb_footer_block_1 .vb_footer_row_info img,
+.vb_footer_new .container .vb_footer_block_1 .vb_footer_row_info i{
     width: 29px;
     height: 29px;
     box-shadow: -1px 2px 6px rgba(16, 151, 61, 0.16);
     border-radius: 8px;
     margin-right: 15px;
     margin-bottom: 10px;
+    text-align: center;
+    line-height: 29px;
 }
 .vb_footer_new .container .vb_footer_block_1 .vb_footer_row_info span {
     color: #163237;
@@ -4434,10 +4442,10 @@ img.card-products-ads-item-block-img {
     display: block;
 }
 .vb_footer_new .container .vb_footer_block_1 .vb_footer_row_place a:hover {
-    color: #7B9E87;
+    color: #FF6655;
 }
 .vb_footer_new .container .vb_footer_block_2 .vb_footer_header_bold {
-    color: #7B9E87;
+    color: #FF6655;
     font-size: 21px;
     font-weight: bold;
     margin-top: 18px;
@@ -4506,13 +4514,13 @@ img.card-products-ads-item-block-img {
     width: 100%;
     border-radius: 50px;
     height: 47px;
-    border: 1px solid #2a9a2a;
+    border: 1px solid #FF6655;
     background: #fff;
     outline: none;
     padding-left: 22px;
     font-size: 17px;
     font-weight: 500;
-    color: #7B9E87;
+    color: #FF6655;
 }
 .vb_footer_new .vb_footer_socials {
     display: flex;
@@ -4525,18 +4533,16 @@ img.card-products-ads-item-block-img {
     margin-right: 10px;
 }
 .vb_footer_new .container .vb_footer_block_2 .vb_footer_register_input:before {
-    content: "";
+    content: "\f1d8";
     cursor: pointer;
     display: block;
     position: absolute;
     width: 20px;
     height: 20px;
     right: 20px;
-    top: 13px;
-    background: url(https://vietbox.vn/wp-content/uploads/2019/12/w_social_input.svg);
-    background-position: center center;
-    background-size: 100%;
-    background-repeat: no-repeat;
+    top: 10px;
+    font-family: 'FontAwesome';
+    color: #f65;
 }
 
 @media only screen and (max-width: 1400px) {
@@ -5299,6 +5305,9 @@ body #callnowbutton {
 }
 .home .vb_header_absolute .vb_header_absolute_green {
     height: 337px;
+}
+a.custom-logo-link img {
+    border: 3px solid #f65f65;
 }
 blink {
     color: #1c87c9;

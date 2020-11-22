@@ -1,5 +1,11 @@
 <?php
 
+function cc_mime_types($mimes) {
+    $mimes['svg'] = 'image/svg+xml';
+    return $mimes;
+}
+add_filter('upload_mimes', 'cc_mime_types');
+
 if( function_exists('acf_add_options_page') ) {
     acf_add_options_page(array(
         'page_title' => 'Theme General Settings',
@@ -32,38 +38,29 @@ function n2t_print_footer(){
 <div class="vb_footer_new">
     <div class="container">
         <div class="vb_footer_block_1">
-            <img class="vb_footer_logo lazy loaded" src="https://vietbox.vn/wp-content/uploads/2019/12/w_fotter_logo.svg" data-src="https://vietbox.vn/wp-content/uploads/2019/12/w_fotter_logo.svg" scale="0" data-was-processed="true">
             <a href="tel:<?php the_field('phone', 'option') ?>" class="vb_footer_row_info">
-                <img class="lazy loaded" src="https://vietbox.vn/wp-content/uploads/2019/12/w_icon_call.svg" data-src="https://vietbox.vn/wp-content/uploads/2019/12/w_icon_call.svg" scale="0" data-was-processed="true">
+                <i class="fa fa-phone" aria-hidden="true"></i>
                 <span><?php the_field('phone', 'option') ?></span>
             </a>
             <a href="mailto:<?php the_field('email', 'option') ?>" class="vb_footer_row_info">
-                <img class="lazy loaded" src="https://vietbox.vn/wp-content/uploads/2019/12/w_icon_mail.svg" data-src="https://vietbox.vn/wp-content/uploads/2019/12/w_icon_mail.svg" scale="0" data-was-processed="true">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
                 <span><?php the_field('email', 'option') ?></span>
             </a>
             <div class="vb_footer_row_place">
                 <span>Địa chỉ</span>
-                <a target="_blank" href="http://maps.google.com/?q=188 Hiền Vương, Phú Thạnh, Tân Phú, Hồ Chí Minh, Vietnam" rel="noopener noreferrer"><?php the_field('address', 'option') ?></a>
+                <a target="_blank" href="http://maps.google.com/?q=<?php the_field('address', 'option') ?>" rel="noopener noreferrer"><?php the_field('address', 'option') ?></a>
             </div>
         </div>
         <div class="vb_footer_block_2">
             <p class="vb_footer_header_bold">Sản phẩm nổi bật</p>
             <ul class="vb_footer_list">
-                <li><a href="https://vietbox.vn/thung-giay-carton-gia-re-tai-tp-hcm/">Thùng Giấy Carton</a></li>
-                <li><a href="https://vietbox.vn/mua-ban-bang-keo-gia-si-tphcm/">Băng Keo</a></li>
-                <li><a href="https://vietbox.vn/mang-pe/">Màng PE</a></li>
-                <li><a href="https://vietbox.vn/tui-ni-long/">Túi Ni Lông</a></li>
-                <li><a href="https://vietbox.vn/mang-xop-hoi-xop-bop-no-xop-khi/">Màng Xốp Hơi</a></li>
+                <?php wp_nav_menu( array( 'items_wrap' => '%3$s', 'theme_location' => 'footer_menu_1' ) ); ?>
             </ul>
         </div>
         <div class="vb_footer_block_2">
             <p class="vb_footer_header_bold">Thông tin khác</p>
             <ul class="vb_footer_list">
-                <li><a href="https://vietbox.vn/in-thung-carton-gia-re-tphcm/">In Thùng Carton</a></li>
-                <li><a href="https://vietbox.vn/in-tui-nilon-gia-re-tphcm/">In Túi Ni Lông</a></li>
-                <li><a href="https://vietbox.vn/category/tin-tuc/">Tin Tức</a></li>
-                <li><a href="https://vietbox.vn/thanh-toan/">Thanh Toán</a></li>
-                <li><a href="https://vietbox.vn/lien-he/">Liên Hệ</a></li>
+                <?php wp_nav_menu( array( 'items_wrap' => '%3$s', 'theme_location' => 'footer_menu_2' ) ); ?>
             </ul>
         </div>
         <div class="vb_footer_block_2 vb_footer_block_3">
@@ -74,10 +71,10 @@ function n2t_print_footer(){
             </div>
             <div class="vb_footer_socials">
                 <a target="_blank" href="<?php the_field('facebook', 'option') ?>" rel="noopener noreferrer">
-                    <img class="lazy loaded" src="https://vietbox.vn/wp-content/uploads/2019/12/w_social_facebook.svg" data-src="https://vietbox.vn/wp-content/uploads/2019/12/w_social_facebook.svg" scale="0" data-was-processed="true">
+                    <img class="lazy loaded" src="https://vietbox.vn/wp-content/uploads/2019/12/w_social_facebook.svg" data-src="https://vietbox.vn/wp-content/uploads/2019/12/w_social_facebook.svg">
                 </a>
                 <a target="_blank" href="https://zalo.me/<?php the_field('phone', 'option') ?>" rel="noopener noreferrer">
-                    <img class="lazy loaded" src="https://vietbox.vn/wp-content/uploads/2019/12/w_social_zalo.svg" data-src="https://vietbox.vn/wp-content/uploads/2019/12/w_social_zalo.svg" scale="0" data-was-processed="true">
+                    <img class="lazy loaded" src="https://vietbox.vn/wp-content/uploads/2019/12/w_social_zalo.svg" data-src="https://vietbox.vn/wp-content/uploads/2019/12/w_social_zalo.svg">
                 </a>
             </div>
         </div>
@@ -166,4 +163,10 @@ function my_acf_blocks_init()
         ));
     }
 }
-				
+function n2t_register_nav_menu(){
+    register_nav_menus( array(
+        'footer_menu_1' => __( 'Footer Menu 1', 'text_domain' ),
+        'footer_menu_2'  => __( 'Footer Menu 2', 'text_domain' ),
+    ) );
+}
+add_action( 'after_setup_theme', 'n2t_register_nav_menu' );
