@@ -25,11 +25,11 @@
                 ?>
 
             </div>
-            <div class="vb_flex_ship_right">
+           <!--  <div class="vb_flex_ship_right">
                 <div class="vb_absolute_circle"></div>
                 <div class="vb_absolute_orange"></div>
-                <img class="vb_blackman" src="<?php the_field('right_image'); ?>">
-            </div>
+               <img class="vb_blackman" src="--><?php //the_field('right_image'); ?><!--">
+            </div>-->
         </div>
     </div>
 </section>

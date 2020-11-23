@@ -3321,6 +3321,7 @@ img.card-products-ads-item-block-img {
 .vb_flex_ship {
     display: flex;
     position: relative;
+    justify-content: center;
 }
 .vb_flex_ship_left {
     width: 65%;
@@ -3356,7 +3357,7 @@ img.card-products-ads-item-block-img {
     height: 100%;
     bottom: 0px;
     width: 1500px;
-    background: linear-gradient(to left, #ff8540, #b43200 135%);
+    background: transparent;
     left: 12%;
 }
 #vb_ship .vb_absolute_circle {
@@ -3647,7 +3648,7 @@ img.card-products-ads-item-block-img {
     left: 0px;
     width: 1300px;
     height: 100%;
-    background: url(https://vietbox.vn/wp-content/uploads/2019/12/w_bakground_partner.jpg);
+    background: url(http://baobikimxuong.com/wp-content/uploads/2020/11/w_bakground_partner-copy.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: right center;
