@@ -4,12 +4,12 @@
 <section id="vb_feedback">
     <div class="container">
         <div class="vb_feedback_header">
-            <img class="lazy loaded" src="https://vietbox.vn/wp-content/uploads/2019/12/w_quote.svg" />
+            <img class="lazy loaded" src="<?php echo get_stylesheet_directory_uri() ?>/images/w_quote.svg" />
             <h2 class="vb_title_section"><?php the_field('title'); ?></h2>
         </div>
         <div class="vb_feedback_absolute_circle"></div>
         <div class="vb_feedback_slider">
-            <img class="vb_feedback_absolute_bottom" src="https://vietbox.vn/wp-content/uploads/2019/12/absolute.svg" />
+            <img class="vb_feedback_absolute_bottom" src="<?php echo get_stylesheet_directory_uri() ?>/images/absolute.svg" />
             <div class="vb_slideshow-container">
                 <?php
                     if( have_rows('testimonials') ):
@@ -18,7 +18,7 @@
                 ?>
                 <div class="vb_mySlides vb_fade" style="display: <?php echo $i == 0 ? 'block' : 'none' ?>;">
                     <img class="vb_mySlides_product" src="<?php the_sub_field('image'); ?>" />
-                    <img class="vb_mySlides_rating" src="http://baobikimxuong.com/wp-content/uploads/2020/11/w_sanpham_ngoisao.png" />
+                    <img class="vb_mySlides_rating" src="<?php echo get_stylesheet_directory_uri() ?>/images/w_sanpham_ngoisao.png" />
                     <p class="vb_slide_title">
                         <?php the_sub_field('review'); ?>
                     </p>

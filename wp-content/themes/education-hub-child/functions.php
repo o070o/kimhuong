@@ -71,10 +71,10 @@ function n2t_print_footer(){
             </div>
             <div class="vb_footer_socials">
                 <a target="_blank" href="<?php the_field('facebook', 'option') ?>" rel="noopener noreferrer">
-                    <img class="lazy loaded" src="https://vietbox.vn/wp-content/uploads/2019/12/w_social_facebook.svg" data-src="https://vietbox.vn/wp-content/uploads/2019/12/w_social_facebook.svg">
+                    <img class="lazy loaded" src="<?php echo get_stylesheet_directory_uri() ?>/images/w_social_facebook.svg">
                 </a>
                 <a target="_blank" href="https://zalo.me/<?php the_field('phone', 'option') ?>" rel="noopener noreferrer">
-                    <img class="lazy loaded" src="https://vietbox.vn/wp-content/uploads/2019/12/w_social_zalo.svg" data-src="https://vietbox.vn/wp-content/uploads/2019/12/w_social_zalo.svg">
+                    <img class="lazy loaded" src="<?php echo get_stylesheet_directory_uri() ?>/images/w_social_zalo.svg">
                 </a>
             </div>
         </div>
@@ -158,6 +158,24 @@ function my_acf_blocks_init()
             'title' => __('Testimonials'),
             'description' => __('Testimonials block.'),
             'render_template' => 'template/blocks/testimonials.php',
+            'category' => 'common',
+            'mode' => 'edit'
+        ));
+
+        acf_register_block_type(array(
+            'name' => 'products_ad',
+            'title' => __('Products Ad'),
+            'description' => __('Products Ad block.'),
+            'render_template' => 'template/blocks/products_ad.php',
+            'category' => 'common',
+            'mode' => 'edit'
+        ));
+
+        acf_register_block_type(array(
+            'name' => 'panel',
+            'title' => __('Liên Hệ Nhanh'),
+            'description' => __('Liên Hệ Nhanh block.'),
+            'render_template' => 'template/blocks/panel.php',
             'category' => 'common',
             'mode' => 'edit'
         ));

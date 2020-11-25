@@ -1659,7 +1659,7 @@ form.wpcf7-form h3 {
     #main-nav {
         z-index: 99;
         position: fixed;
-        background-color: #156b14;
+        background-color: #FF6655;
     }
 
     #main-nav button.menu-toggle {
@@ -2991,7 +2991,7 @@ img.card-products-ads-item-block-img {
     position: relative;
     margin-right: 10px;
     display: inline-block;
-    background: url(https://vietbox.vn/wp-content/uploads/2019/12/check.svg);
+    background: url(images/check.svg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -3041,7 +3041,7 @@ img.card-products-ads-item-block-img {
     top: 25px;
     width: 63px;
     height: 130px;
-    background: url(https://vietbox.vn/wp-content/uploads/2019/12/absolute_retancle.svg);
+    background: url(images/absolute_retancle.svg);
     background-position: left center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -3051,7 +3051,7 @@ img.card-products-ads-item-block-img {
     position: relative;
     width: 196px;
     height: 123px;
-    background: url(https://vietbox.vn/wp-content/uploads/2019/12/absolute.svg);
+    background: url(images/absolute.svg);
     background-position: top center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -3236,7 +3236,7 @@ img.card-products-ads-item-block-img {
     border-top: 1px solid #dfe8e5;
     border-right: 1px solid #dfe8e5;
     border-bottom: 1px solid #dfe8e5;
-    background: url(http://baobikimxuong.com/wp-content/uploads/2020/11/sanphamchinh-1.png) 0% 0% repeat;
+    background: url("images/sanphamchinh.png") 0% 0% repeat;
     animation-delay: 0.2s;
     animation-name: MOVE-BG;
     animation-duration: 15s;
@@ -3245,12 +3245,12 @@ img.card-products-ads-item-block-img {
 }
 @keyframes MOVE-BG {
     from {
-        background: url(http://baobikimxuong.com/wp-content/uploads/2020/11/sanphamchinh-1.png);
+        background: url("images/sanphamchinh.png");
         background-position: 0% 0%;
     }
 
     to {
-        background: url(http://baobikimxuong.com/wp-content/uploads/2020/11/sanphamchinh-1.png);
+        background: url("images/sanphamchinh.png");
         background-position: 187% 52%;
     }
 }
@@ -3365,7 +3365,7 @@ img.card-products-ads-item-block-img {
     position: absolute;
     width: 86px;
     height: 80px;
-    background: url(https://vietbox.vn/wp-content/uploads/2019/12/absolute.svg);
+    background: url(images/absolute.svg);
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -3648,7 +3648,7 @@ img.card-products-ads-item-block-img {
     left: 0px;
     width: 1300px;
     height: 100%;
-    background: url(http://baobikimxuong.com/wp-content/uploads/2020/11/w_bakground_partner-copy.png);
+    background: url("images/w_bakground_partner.png");
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: right center;
@@ -4090,7 +4090,7 @@ img.card-products-ads-item-block-img {
     display: block;
     position: relative;
     padding: 95px 0px 130px;
-    background: url(https://vietbox.vn/wp-content/uploads/2019/12/w_bakground_tags.jpg);
+    background: url("images/w_bakground_tags.jpg");
     overflow: hidden;
     background-size: cover;
     background-position: bottom center;
@@ -5167,7 +5167,7 @@ img.card-products-ads-item-block-img {
         width: 40px;
     }
     #vb_tagproducts:before {
-        background: linear-gradient(45deg, #053905, #074207);
+        background: linear-gradient(45deg, #864b44, #FF6655)
     }
     .vb_flex_whychooseus .vb_whychooseus_block .vb_whychooseus_block_content {
         text-align: left;

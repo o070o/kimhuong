@@ -30,13 +30,13 @@
                     <img src="<?php echo get_the_post_thumbnail_url($product->ID, 'full'); ?>" />
                     <div class="vb_tab_content">
                         <h3><?php echo $product->post_title; ?></h3>
-                        <img class="vb_star" src="http://baobikimxuong.com/wp-content/uploads/2020/11/w_sanpham_ngoisao.png" />
+                        <img class="vb_star" src="<?php echo get_stylesheet_directory_uri() ?>/images/w_sanpham_ngoisao.png" />
                         <p class="vb_tab_text"><?php echo $product->post_excerpt; ?></p>
                         <a class="vb_price_link" href="#">Xem bảng giá</a>
                         <div class="block_btn_slider">
                             <a href="tel:<?php the_field('phone', 'option') ?>" class="con_btn kk_btn_slider btn_effect">
                                 Gọi đặt hàng
-                                <span><img class="i_button lazy loaded" src="https://vietbox.vn/wp-content/uploads/2019/12/icon_contact.svg" data-src="https://vietbox.vn/wp-content/uploads/2019/12/icon_contact.svg" scale="0" data-was-processed="true"></span>
+                                <span><img class="i_button lazy loaded" src="<?php echo get_stylesheet_directory_uri() ?>/images/icon_contact.svg"></span>
                             </a>
                         </div>
                         <a href="https://zalo.me/<?php the_field('zalo', 'option') ?>" class="btn_call_zalo">Gọi zalo</a>

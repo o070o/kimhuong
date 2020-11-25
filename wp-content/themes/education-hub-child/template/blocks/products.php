@@ -4,7 +4,7 @@
             <div class="vb_tagproducts_flex_header_left">
                 <h2 class="vb_title_section"><?php the_field('title'); ?></h2>
                 <p class="vb_foot_title"><?php the_field('subtitle'); ?></p>
-                <img class="vb_foot_border lazy loaded" src="https://vietbox.vn/wp-content/uploads/2019/12/w_tag_border.svg">
+                <img class="vb_foot_border lazy loaded" src="<?php echo get_stylesheet_directory_uri() ?>/images/w_tag_border.svg">
             </div>
             <div class="vb_tagproducts_flex_header_right">
                 <div class="vb_tagproducts_hotline">
@@ -27,7 +27,7 @@
                     <div class="vb_tagproducts_col_list">
                         <?php the_sub_field('tags'); ?>
                     </div>
-                    <a href="<?php the_field('link'); ?>" class="vb_tagproducts_col_listall">Tất cả <?php the_sub_field('title'); ?></a>
+                    <a href="<?php the_sub_field('link'); ?>" class="vb_tagproducts_col_listall">Tất cả <?php the_sub_field('title'); ?></a>
                 </div>
             </div>
             <?php

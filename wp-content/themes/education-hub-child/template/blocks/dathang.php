@@ -1,7 +1,7 @@
 <section id="vb_contactform">
     <div class="container">
         <div class="vb_contacform_flex">
-            <img class="vb_contacform_absolute_left" src="https://vietbox.vn/wp-content/uploads/2019/12/absolute.svg" />
+            <img class="vb_contacform_absolute_left" src="<?php echo get_stylesheet_directory_uri() ?>/images/absolute.svg" />
             <div class="vb_contacform_flex_left">
                 <h2 class="vb_title_section"><?php the_field('title'); ?></h2>
                 <div class="vb_border_title"></div>

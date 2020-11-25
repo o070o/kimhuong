@@ -8,7 +8,7 @@
                 <a href="tel:<?php the_field('phone', 'option') ?>" class="con_btn kk_btn_slider btn_effect">
                     Gọi đặt hàng
                     <span>
-                        <img class="i_button lazy loaded" src="https://vietbox.vn/wp-content/uploads/2019/12/icon_contact.svg" data-src="https://vietbox.vn/wp-content/uploads/2019/12/icon_contact.svg" scale="0" data-was-processed="true">
+                        <img class="i_button lazy loaded" src="<?php echo get_stylesheet_directory_uri() ?>/images/icon_contact.svg">
                     </span>
                 </a>
             </div>
